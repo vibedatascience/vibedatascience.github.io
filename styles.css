@@ -126,6 +126,35 @@ section h2::before {
     background: var(--econ-red);
 }
 
+/* Collapsible Sections */
+.collapsible-section .section-header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    user-select: none;
+    transition: color 0.2s;
+}
+
+.collapsible-section .section-header:hover {
+    color: var(--blue);
+}
+
+.toggle-icon {
+    font-size: 0.875rem;
+    transition: transform 0.2s;
+}
+
+.section-content {
+    max-height: 5000px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.collapsible-section.collapsed .section-content {
+    max-height: 0;
+}
+
 /* Grid */
 .grid {
     display: grid;

@@ -37,125 +37,100 @@
 
     <main class="container">
         <!-- Apps -->
-        <section>
-            <h2>Apps</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>Ebook AI Companion</h3>
-                    <p>Visual aid for documents. Transform PDFs, EPUBs, and webpages into engaging conversations with Claude. Features real-time streaming, smart delta optimization (80% cost reduction), and edge-to-edge interface.</p>
-                    <div class="tags">
-                        <span>JavaScript</span>
-                        <span>Claude AI</span>
-                        <span>PDF.js</span>
+        <section class="collapsible-section">
+            <h2 class="section-header" onclick="toggleSection(this)">
+                <span class="toggle-icon">▼</span>
+                Apps
+            </h2>
+            <div class="section-content">
+                <div class="grid">
+                    <div class="card">
+                        <h3>Ebook AI Companion</h3>
+                        <p>Visual aid for documents. Transform PDFs, EPUBs, and webpages into engaging conversations with Claude. Features real-time streaming, smart delta optimization (80% cost reduction), and edge-to-edge interface.</p>
+                        <div class="links">
+                            <a href="https://vibedatascience.github.io/ebook_ai_companion/" target="_blank">Demo</a>
+                            <a href="https://github.com/vibedatascience/ebook_ai_companion" target="_blank">Code</a>
+                        </div>
                     </div>
-                    <div class="links">
-                        <a href="https://vibedatascience.github.io/ebook_ai_companion/" target="_blank">Demo</a>
-                        <a href="https://github.com/vibedatascience/ebook_ai_companion" target="_blank">Code</a>
-                    </div>
-                </div>
 
-                <div class="card">
-                    <h3>Podcast Analysis Viewer</h3>
-                    <p>Beautiful web-based podcast analysis viewer with sidebar navigation and custom Python processing scripts for exploring podcast data and insights.</p>
-                    <div class="tags">
-                        <span>HTML</span>
-                        <span>Python</span>
-                        <span>Visualization</span>
-                    </div>
-                    <div class="links">
-                        <a href="https://vibedatascience.github.io/podcast-analysis-viewer/" target="_blank">Demo</a>
-                        <a href="https://github.com/vibedatascience/podcast-analysis-viewer" target="_blank">Code</a>
+                    <div class="card">
+                        <h3>Podcast Analysis Viewer</h3>
+                        <p>Beautiful web-based podcast analysis viewer with sidebar navigation and custom Python processing scripts for exploring podcast data and insights.</p>
+                        <div class="links">
+                            <a href="https://vibedatascience.github.io/podcast-analysis-viewer/" target="_blank">Demo</a>
+                            <a href="https://github.com/vibedatascience/podcast-analysis-viewer" target="_blank">Code</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Data Projects -->
-        <section>
-            <h2>Data Projects</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>Football Transfers Visual Essay</h3>
-                    <p>Interactive scrollytelling visualization exploring 19,454 transfers across Europe's top 5 leagues (2016-2025). Built with Svelte 5 & D3.js in the style of The Pudding.</p>
-                    <div class="tags">
-                        <span>Svelte</span>
-                        <span>D3.js</span>
-                        <span>Scrollytelling</span>
+        <section class="collapsible-section">
+            <h2 class="section-header" onclick="toggleSection(this)">
+                <span class="toggle-icon">▼</span>
+                Data Projects
+            </h2>
+            <div class="section-content">
+                <div class="grid">
+                    <div class="card">
+                        <h3>Football Transfers Visual Essay</h3>
+                        <p>Interactive scrollytelling visualization exploring 19,454 transfers across Europe's top 5 leagues (2016-2025). Built with Svelte 5 & D3.js in the style of The Pudding.</p>
+                        <div class="links">
+                            <a href="https://vibedatascience.github.io/football_transfers_visual_essay_svelte_test/" target="_blank">Demo</a>
+                            <a href="https://github.com/vibedatascience/football_transfers_visual_essay_svelte_test" target="_blank">Code</a>
+                        </div>
                     </div>
-                    <div class="links">
-                        <a href="https://vibedatascience.github.io/football_transfers_visual_essay_svelte_test/" target="_blank">Demo</a>
-                        <a href="https://github.com/vibedatascience/football_transfers_visual_essay_svelte_test" target="_blank">Code</a>
-                    </div>
-                </div>
 
-                <div class="card">
-                    <h3>FIFA World Cup 2026 Draw Simulator</h3>
-                    <p>Comprehensive group stage draw simulator with latest FIFA rankings (Sept 2025), deterministic playoff system, and authentic draw mechanics. Features 48 teams, sophisticated backtracking algorithm enforcing confederation constraints, and official venues.</p>
-                    <div class="tags">
-                        <span>JavaScript</span>
-                        <span>FIFA Rankings</span>
-                        <span>Simulator</span>
-                    </div>
-                    <div class="links">
-                        <a href="https://vibedatascience.github.io/world-cup-group-visualization/" target="_blank">Demo</a>
+                    <div class="card">
+                        <h3>FIFA World Cup 2026 Draw Simulator</h3>
+                        <p>Comprehensive group stage draw simulator with latest FIFA rankings (Sept 2025), deterministic playoff system, and authentic draw mechanics. Features 48 teams, sophisticated backtracking algorithm enforcing confederation constraints, and official venues.</p>
+                        <div class="links">
+                            <a href="https://vibedatascience.github.io/world-cup-group-visualization/" target="_blank">Demo</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Datasets -->
-        <section>
-            <h2>Datasets</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>Understat Players</h3>
-                    <p>Comprehensive player statistics from Understat.com covering Europe's top 6 leagues (2014-2026). ~37,000 player-season combinations with xG, assists, shots, and playing time.</p>
-                    <div class="meta">
-                        <span>10,700+ players</span>
-                        <span>6 leagues</span>
-                        <span>CSV & Parquet</span>
+        <section class="collapsible-section">
+            <h2 class="section-header" onclick="toggleSection(this)">
+                <span class="toggle-icon">▼</span>
+                Datasets
+            </h2>
+            <div class="section-content">
+                <div class="grid">
+                    <div class="card">
+                        <h3>Understat Players</h3>
+                        <p>Comprehensive player statistics from Understat.com covering Europe's top 6 leagues (2014-2026). ~37,000 player-season combinations with xG, assists, shots, and playing time.</p>
+                        <div class="links">
+                            <a href="https://github.com/vibedatascience/understat_players_aggregated" target="_blank">GitHub</a>
+                        </div>
                     </div>
-                    <div class="links">
-                        <a href="https://github.com/vibedatascience/understat_players_aggregated" target="_blank">GitHub</a>
-                    </div>
-                </div>
 
-                <div class="card">
-                    <h3>Understat Teams</h3>
-                    <p>Team-level statistics from Understat.com for Europe's top 6 leagues (2014-2026). 1,320 team-season combinations with xG, match results, and pressing statistics.</p>
-                    <div class="meta">
-                        <span>140 clubs</span>
-                        <span>6 leagues</span>
-                        <span>Daily updates</span>
+                    <div class="card">
+                        <h3>Understat Teams</h3>
+                        <p>Team-level statistics from Understat.com for Europe's top 6 leagues (2014-2026). 1,320 team-season combinations with xG, match results, and pressing statistics.</p>
+                        <div class="links">
+                            <a href="https://github.com/vibedatascience/understat_teams_aggregated" target="_blank">GitHub</a>
+                        </div>
                     </div>
-                    <div class="links">
-                        <a href="https://github.com/vibedatascience/understat_teams_aggregated" target="_blank">GitHub</a>
-                    </div>
-                </div>
 
-                <div class="card">
-                    <h3>Football-Data.co.uk Big 5</h3>
-                    <p>Match results from Football-Data.co.uk covering Europe's top 5 leagues (2000-2025). 95,000+ matches with goals, shots, corners, cards, and outcomes.</p>
-                    <div class="meta">
-                        <span>25 years</span>
-                        <span>200 clubs</span>
-                        <span>5 leagues</span>
+                    <div class="card">
+                        <h3>Football-Data.co.uk Big 5</h3>
+                        <p>Match results from Football-Data.co.uk covering Europe's top 5 leagues (2000-2025). 95,000+ matches with goals, shots, corners, cards, and outcomes.</p>
+                        <div class="links">
+                            <a href="https://github.com/vibedatascience/footballdatacouk_leagues_games_results_big5" target="_blank">GitHub</a>
+                        </div>
                     </div>
-                    <div class="links">
-                        <a href="https://github.com/vibedatascience/footballdatacouk_leagues_games_results_big5" target="_blank">GitHub</a>
-                    </div>
-                </div>
 
-                <div class="card">
-                    <h3>Guardian Football Transfers</h3>
-                    <p>Transfer windows coverage from Guardian.co.uk (2016-2025). 19,454 transfers across Europe's top 5 leagues with player details, fees, and dates.</p>
-                    <div class="meta">
-                        <span>19,454 transfers</span>
-                        <span>2016-2025</span>
-                        <span>Big 5 leagues</span>
-                    </div>
-                    <div class="links">
-                        <a href="https://github.com/vibedatascience/guardiancouk_football_transfers_data" target="_blank">GitHub</a>
+                    <div class="card">
+                        <h3>Guardian Football Transfers</h3>
+                        <p>Transfer windows coverage from Guardian.co.uk (2016-2025). 19,454 transfers across Europe's top 5 leagues with player details, fees, and dates.</p>
+                        <div class="links">
+                            <a href="https://github.com/vibedatascience/guardiancouk_football_transfers_data" target="_blank">GitHub</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -165,5 +140,23 @@
             <p>Curating comprehensive football datasets and building tools for advanced analytics.</p>
         </footer>
     </main>
+
+    <script>
+        function toggleSection(header) {
+            const section = header.parentElement;
+            const content = section.querySelector('.section-content');
+            const icon = header.querySelector('.toggle-icon');
+
+            section.classList.toggle('collapsed');
+
+            if (section.classList.contains('collapsed')) {
+                content.style.maxHeight = '0';
+                icon.textContent = '▶';
+            } else {
+                content.style.maxHeight = content.scrollHeight + 'px';
+                icon.textContent = '▼';
+            }
+        }
+    </script>
 </body>
 </html>
