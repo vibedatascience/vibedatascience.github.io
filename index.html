@@ -3,229 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vibe Data Science - Football Analytics Portfolio</title>
+    <title>Vibe Data Science</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="hero">
         <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Vibe Data Science</h1>
-                <p class="hero-subtitle">Football Analytics & Data Engineering</p>
-                <p class="hero-description">
-                    Curating comprehensive football datasets and building tools for advanced analytics.
-                    Specializing in expected goals (xG), player statistics, and match-level data from Europe's top leagues.
-                </p>
-                <div class="hero-links">
-                    <a href="https://github.com/vibedatascience" class="btn btn-primary" target="_blank">
-                        <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-                        </svg>
-                        View GitHub
-                    </a>
-                </div>
-            </div>
+            <h1>Vibe Data Science</h1>
+            <p class="subtitle">Football Analytics & Data Tools</p>
+            <a href="https://github.com/vibedatascience" class="github-link" target="_blank">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                </svg>
+                GitHub
+            </a>
         </div>
     </header>
 
     <main class="container">
-        <!-- App Projects Section -->
-        <section class="projects-section">
-            <h2 class="section-title">App Projects</h2>
-
-            <div class="project-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon economist-red">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <line x1="12" y1="8" x2="12" y2="12"></line>
-                                <line x1="12" y1="16" x2="12.01" y2="16"></line>
-                            </svg>
-                        </div>
-                        <div class="project-tags">
-                            <span class="tag">HTML</span>
-                            <span class="tag">Python</span>
-                            <span class="tag">Visualization</span>
-                        </div>
+        <!-- Apps -->
+        <section>
+            <h2>Apps</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Ebook AI Companion</h3>
+                    <p>Visual aid for documents. Transform PDFs, EPUBs, and webpages into engaging conversations with Claude. Features real-time streaming, smart delta optimization (80% cost reduction), and edge-to-edge interface.</p>
+                    <div class="tags">
+                        <span>JavaScript</span>
+                        <span>Claude AI</span>
+                        <span>PDF.js</span>
                     </div>
-                    <h3 class="project-title">Podcast Analysis Viewer</h3>
-                    <p class="project-description">
-                        Beautiful web-based podcast analysis viewer with sidebar navigation.
-                        An interactive interface for exploring podcast data and insights with
-                        custom Python processing scripts.
-                    </p>
-                    <div class="project-links">
-                        <a href="https://vibedatascience.github.io/podcast-analysis-viewer/" class="project-link" target="_blank">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                                <polyline points="15 3 21 3 21 9"></polyline>
-                                <line x1="10" y1="14" x2="21" y2="3"></line>
-                            </svg>
-                            Live Demo
-                        </a>
-                        <a href="https://github.com/vibedatascience/podcast-analysis-viewer" class="project-link" target="_blank">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-                            </svg>
-                            Repository
-                        </a>
+                    <div class="links">
+                        <a href="https://vibedatascience.github.io/ebook_ai_companion/" target="_blank">Demo</a>
+                        <a href="https://github.com/vibedatascience/ebook_ai_companion" target="_blank">Code</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Football Transfers Visual Essay</h3>
+                    <p>Interactive scrollytelling visualization exploring 19,454 transfers across Europe's top 5 leagues (2016-2025). Built with Svelte 5 & D3.js in the style of The Pudding.</p>
+                    <div class="tags">
+                        <span>Svelte</span>
+                        <span>D3.js</span>
+                        <span>Scrollytelling</span>
+                    </div>
+                    <div class="links">
+                        <a href="https://vibedatascience.github.io/football_transfers_visual_essay_svelte_test/" target="_blank">Demo</a>
+                        <a href="https://github.com/vibedatascience/football_transfers_visual_essay_svelte_test" target="_blank">Code</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Podcast Analysis Viewer</h3>
+                    <p>Beautiful web-based podcast analysis viewer with sidebar navigation and custom Python processing scripts for exploring podcast data and insights.</p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>Python</span>
+                        <span>Visualization</span>
+                    </div>
+                    <div class="links">
+                        <a href="https://vibedatascience.github.io/podcast-analysis-viewer/" target="_blank">Demo</a>
+                        <a href="https://github.com/vibedatascience/podcast-analysis-viewer" target="_blank">Code</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Datasets Section -->
-        <section class="projects-section">
-            <h2 class="section-title">Datasets</h2>
-
-            <div class="project-grid">
-                <!-- Understat Players Dataset -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon economist-blue1">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                <circle cx="9" cy="7" r="4"></circle>
-                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                            </svg>
-                        </div>
-                        <div class="project-tags">
-                            <span class="tag">Dataset</span>
-                            <span class="tag">Jupyter</span>
-                            <span class="tag">xG Analytics</span>
-                        </div>
+        <!-- Datasets -->
+        <section>
+            <h2>Datasets</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Understat Players</h3>
+                    <p>Comprehensive player statistics from Understat.com covering Europe's top 6 leagues (2014-2026). ~37,000 player-season combinations with xG, assists, shots, and playing time.</p>
+                    <div class="meta">
+                        <span>10,700+ players</span>
+                        <span>6 leagues</span>
+                        <span>CSV & Parquet</span>
                     </div>
-                    <h3 class="project-title">Understat Players Dataset</h3>
-                    <p class="project-description">
-                        Comprehensive football player statistics from Understat.com covering Europe's top 6 leagues (2014-2026).
-                        Features ~37,000 player-season combinations with advanced metrics including xG, assists, shots,
-                        and playing time. Daily updates for current season.
-                    </p>
-                    <ul class="project-features">
-                        <li>10,700+ unique players tracked</li>
-                        <li>EPL, La Liga, Bundesliga, Serie A, Ligue 1, RFPL</li>
-                        <li>CSV and Parquet formats available</li>
-                    </ul>
-                    <div class="project-links">
-                        <a href="https://github.com/vibedatascience/understat_players_aggregated" class="project-link" target="_blank">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-                            </svg>
-                            View Dataset
-                        </a>
+                    <div class="links">
+                        <a href="https://github.com/vibedatascience/understat_players_aggregated" target="_blank">GitHub</a>
                     </div>
                 </div>
 
-                <!-- Understat Teams Dataset -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon economist-blue2">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="3" width="7" height="7"></rect>
-                                <rect x="14" y="3" width="7" height="7"></rect>
-                                <rect x="14" y="14" width="7" height="7"></rect>
-                                <rect x="3" y="14" width="7" height="7"></rect>
-                            </svg>
-                        </div>
-                        <div class="project-tags">
-                            <span class="tag">Dataset</span>
-                            <span class="tag">Jupyter</span>
-                            <span class="tag">Team Analytics</span>
-                        </div>
+                <div class="card">
+                    <h3>Understat Teams</h3>
+                    <p>Team-level statistics from Understat.com for Europe's top 6 leagues (2014-2026). 1,320 team-season combinations with xG, match results, and pressing statistics.</p>
+                    <div class="meta">
+                        <span>140 clubs</span>
+                        <span>6 leagues</span>
+                        <span>Daily updates</span>
                     </div>
-                    <h3 class="project-title">Understat Teams Dataset</h3>
-                    <p class="project-description">
-                        Team-level football statistics from Understat.com for Europe's top 6 leagues (2014-2026).
-                        Contains 1,320 team-season combinations across 140 clubs with advanced metrics including
-                        expected goals, match results, and pressing statistics.
-                    </p>
-                    <ul class="project-features">
-                        <li>140 unique clubs across 6 leagues</li>
-                        <li>Advanced pressing and passing stats</li>
-                        <li>Daily updates with current season data</li>
-                    </ul>
-                    <div class="project-links">
-                        <a href="https://github.com/vibedatascience/understat_teams_aggregated" class="project-link" target="_blank">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-                            </svg>
-                            View Dataset
-                        </a>
+                    <div class="links">
+                        <a href="https://github.com/vibedatascience/understat_teams_aggregated" target="_blank">GitHub</a>
                     </div>
                 </div>
 
-                <!-- Football-Data.co.uk Dataset -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <div class="project-icon economist-green">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-                            </svg>
-                        </div>
-                        <div class="project-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">Dataset</span>
-                            <span class="tag">Match Data</span>
-                        </div>
+                <div class="card">
+                    <h3>Football-Data.co.uk Big 5</h3>
+                    <p>Match results from Football-Data.co.uk covering Europe's top 5 leagues (2000-2025). 95,000+ matches with goals, shots, corners, cards, and outcomes.</p>
+                    <div class="meta">
+                        <span>25 years</span>
+                        <span>200 clubs</span>
+                        <span>5 leagues</span>
                     </div>
-                    <h3 class="project-title">Football-Data.co.uk Big 5 Leagues</h3>
-                    <p class="project-description">
-                        Comprehensive match results dataset from Football-Data.co.uk covering Europe's top 5 leagues
-                        from 2000/01 to 2024/25. Features 95,000+ matches across 200 clubs with detailed statistics
-                        including goals, shots, corners, cards, and match outcomes.
-                    </p>
-                    <ul class="project-features">
-                        <li>25 years of historical match data</li>
-                        <li>Premier League, Serie A, La Liga, Bundesliga, Ligue 1</li>
-                        <li>Full-time and half-time statistics</li>
-                    </ul>
-                    <div class="project-links">
-                        <a href="https://github.com/vibedatascience/footballdatacouk_leagues_games_results_big5" class="project-link" target="_blank">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-                            </svg>
-                            View Dataset
-                        </a>
+                    <div class="links">
+                        <a href="https://github.com/vibedatascience/footballdatacouk_leagues_games_results_big5" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Guardian Football Transfers</h3>
+                    <p>Transfer windows coverage from Guardian.co.uk (2016-2025). 19,454 transfers across Europe's top 5 leagues with player details, fees, and dates.</p>
+                    <div class="meta">
+                        <span>19,454 transfers</span>
+                        <span>2016-2025</span>
+                        <span>Big 5 leagues</span>
+                    </div>
+                    <div class="links">
+                        <a href="https://github.com/vibedatascience/guardiancouk_football_transfers_data" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Data Projects Section (placeholder for future projects) -->
-        <section class="projects-section">
-            <h2 class="section-title">Data Projects</h2>
-            <div class="empty-section">
-                <p class="empty-text">More data projects coming soon...</p>
-            </div>
-        </section>
-
-        <section class="about-section">
-            <h2 class="section-title">About</h2>
-            <div class="about-content">
-                <p>
-                    Vibe Data Science focuses on creating high-quality, accessible football analytics datasets
-                    and tools. Projects emphasize comprehensive coverage, regular updates, and ease of use
-                    for data scientists, researchers, and football analysts.
-                </p>
-                <p>
-                    All datasets are sourced from leading football analytics platforms and are maintained with
-                    daily updates for current seasons. Available in multiple formats (CSV, Parquet) for optimal
-                    performance and compatibility.
-                </p>
-            </div>
-        </section>
+        <footer>
+            <p>Curating comprehensive football datasets and building tools for advanced analytics.</p>
+        </footer>
     </main>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Vibe Data Science. Football analytics datasets and tools.</p>
-            <div class="footer-links">
-                <a href="https://github.com/vibedatascience" target="_blank">GitHub</a>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
